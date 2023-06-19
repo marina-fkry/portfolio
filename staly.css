@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home {
+    background-image: url(../photo/hero-bg.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.header{
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open {
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.open p {
+    margin: 30px;
+    
+}
+
+.one {
+    font-size: 50px;
+}
+
+.two {
+    font-size: 50px;
+}
+
+.logo{font-size: 25px;
+    width: 100px;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    z-index: 4;
+    color: aliceblue;
+}
+
+.link {
+    width: 700px;
+
+    
+}
+
+.navbar ul {
+    display: flex;
+    
+   /* list-style: none;*/
+
+}
+ul{list-style: none;}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    margin: 30px;
+}
+
+h1::after {
+    content: '';
+    animation: title 3s infinite alternate;
+
+
+}
+
+@keyframes title {
+    0% {
+        content: '';
+    }
+
+    5% {
+        content: " photo|";
+    }
+    10% {
+        content: " photogra|";
+    }
+
+    15% {
+        content: " photographer |";
+    }
+    20% {
+        content: " photographer |";
+    }
+
+    25% {
+        content: " photographer | ";
+    }
+
+    30% {
+        content: " Des|";
+    }
+    35% {
+        content: " Desig|";
+    }
+
+    40% {
+        content: " Desiger |";
+    }
+    45% {
+        content: " Desiger |";
+    }
+
+    50% {
+        content: " Deve |";
+    }
+    55% {
+        content: " Develo |";
+    }
+
+    60% {
+        content: " Developer |";
+    }
+    65% {
+        content: " Developer |";
+    }
+
+    70% {
+        content: " free|";
+    }
+    75% {
+        content: " freelan|";
+    }
+
+    80% {
+        content: " freelancer |";
+    }
+    85% {
+        content: " freelancer |";
+    }
+}
+
+.w-img{
+    
+    width: 150px;
+    margin: 50px;
+}
+.dd{
+margin: auto;
+margin-top: 50px;
+height: 600px;
+}
+.section1{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.section2{
+    display: flex;
+     width: 50%;
+     height: 100%;
+}
+.section3{
+    font-size: 20px;
+    height: 250%;
+    width: 10%;
+    
+}
+.section3 h2{
+    padding: 10px;
+}
+
+.progress1{
+    width: 44%;
+    margin-left: 40px;
+}
+.know{/*background-color: #a70e0e;*/
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.line::after{
+    position: absolute;
+    top: 30;
+    bottom: 30;
+    left: 48%;
+    background-color: #20C997;
+content: "";
+width: 70px;
+height: 3px;
+}
